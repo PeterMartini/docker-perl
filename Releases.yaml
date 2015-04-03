@@ -1,4 +1,24 @@
 releases:
+  - version: 5.8.9
+    sha1:    19843b5a7585cf35d96c07dbcd419bbdd5813617
+    pause:   NWCLARK
+
+  - version: 5.10.1
+    sha1:    98b762b5cd4fb76dd354dfa5ba0d21bc2acacaf2
+    pause:   DAPM
+
+  - version: 5.12.5
+    sha1:    68ff2f4a0901d1e4ea263f452001db0563d2edb3
+    pause:   DOM
+
+  - version: 5.14.4
+    sha1:    3527c9e26f985cba98796439bf555fde8be73cdf
+    pause:   DAPM
+
+  - version: 5.16.3
+    sha1:    060bc17cf9f142d043f9bf7b861422ec624875ea
+    pause:   RJBS
+
   - version: 5.18.4
     sha1:    69c34558a0a939a7adbbc1de48c06ea418d81e27
     pause:   RJBS
