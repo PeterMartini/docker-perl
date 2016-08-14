@@ -473,21 +473,19 @@ index de26d84..52b0492 100644
  
  	# Presumably this can be simplified
 diff --git a/patchlevel.h b/patchlevel.h
-index f1a12bd..420296d 100644
+index f1a12bd..cb0edeb 100644
 --- a/patchlevel.h
 +++ b/patchlevel.h
 @@ -131,6 +131,7 @@ static const char * const local_patches[] = {
  	,"uncommitted-changes"
  #endif
  	PERL_GIT_UNPUSHED_COMMITS    	/* do not remove this line */
-+	,"Devel::PatchPerl 1.38"
++	,"Devel::PatchPerl 1.42"
  	,NULL
  };
  
 diff --git a/t/op/hash.t b/t/op/hash.t
-old mode 100755
-new mode 100644
-index 9bde518..45eb782
+index 9bde518..45eb782 100755
 --- a/t/op/hash.t
 +++ b/t/op/hash.t
 @@ -39,22 +39,36 @@ use constant THRESHOLD => 14;

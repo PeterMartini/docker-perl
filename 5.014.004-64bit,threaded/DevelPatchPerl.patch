@@ -310,14 +310,14 @@ index 13a15b4..a564bb3 100644
  
  	# Presumably this can be simplified
 diff --git a/patchlevel.h b/patchlevel.h
-index 4d9cd6d..0052d4a 100644
+index 4d9cd6d..a18df6e 100644
 --- a/patchlevel.h
 +++ b/patchlevel.h
 @@ -137,6 +137,7 @@ static const char * const local_patches[] = {
  	,"uncommitted-changes"
  #endif
  	PERL_GIT_UNPUSHED_COMMITS    	/* do not remove this line */
-+	,"Devel::PatchPerl 1.38"
++	,"Devel::PatchPerl 1.42"
  	,NULL
  };
  

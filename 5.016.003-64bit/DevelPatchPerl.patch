@@ -281,14 +281,14 @@ index 688c68d..fb5a46e 100644
             if ldd $DBLIB | grep pthread >/dev/null
             then
 diff --git a/patchlevel.h b/patchlevel.h
-index be508d1..d71558a 100644
+index be508d1..d1968e8 100644
 --- a/patchlevel.h
 +++ b/patchlevel.h
 @@ -137,6 +137,7 @@ static const char * const local_patches[] = {
  	,"uncommitted-changes"
  #endif
  	PERL_GIT_UNPUSHED_COMMITS    	/* do not remove this line */
-+	,"Devel::PatchPerl 1.38"
++	,"Devel::PatchPerl 1.42"
  	,NULL
  };
  

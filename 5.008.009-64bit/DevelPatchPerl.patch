@@ -388,14 +388,14 @@ index 030db74..0d15a40 100644
      }
  
 diff --git a/patchlevel.h b/patchlevel.h
-index 82f11ed..2254fd1 100644
+index 82f11ed..a62dc99 100644
 --- a/patchlevel.h
 +++ b/patchlevel.h
 @@ -121,6 +121,7 @@ hunk.
  #if !defined(PERL_PATCHLEVEL_H_IMPLICIT) && !defined(LOCAL_PATCH_COUNT)
  static const char *local_patches[] = {
  	NULL
-+	,"Devel::PatchPerl 1.38"
++	,"Devel::PatchPerl 1.42"
  	,NULL
  };
  
